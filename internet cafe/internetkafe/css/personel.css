@@ -1,0 +1,106 @@
+/* GENEL STİL */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+/* BAŞLIK */
+h2, h3 {
+    text-align: center;
+    color: #333;
+    margin: 30px 0 20px;
+}
+
+/* TABLOLAR */
+table {
+    border-collapse: collapse;
+    width: 90%;
+    margin: 0 auto 40px;
+    background-color: #fff;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+th, td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    text-align: center;
+    font-size: 14px;
+}
+
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+/* BUTONLAR */
+.btn {
+    padding: 8px 12px;
+    margin: 2px;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.2s ease;
+}
+
+.btn-duzenle {
+    background-color: #007bff;
+    color: white;
+}
+.btn-duzenle:hover {
+    background-color: #0056b3;
+}
+
+.btn-sil {
+    background-color: #dc3545;
+    color: white;
+}
+.btn-sil:hover {
+    background-color: #b02a37;
+}
+
+.btn-ekle {
+    background-color: #28a745;
+    color: white;
+}
+.btn-ekle:hover {
+    background-color: #218838;
+}
+
+/* FORM STİLİ */
+form.personel-form,
+form.gorev-form {
+    width: 100%;
+    max-width: 450px;
+    margin: 0 auto 50px;
+    background: #fff;
+    padding: 25px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+form input,
+form select {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+form button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 15px;
+    font-size: 15px;
+}

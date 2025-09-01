@@ -1,0 +1,67 @@
+/* Header genel stil */
+.navbar {
+    background: linear-gradient(90deg, #2c3e50, #34495e);
+    color: #fff;
+    padding: 20px 30px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    position: relative;
+}
+
+/* Üst başlık ve kullanıcı bilgisi */
+.navbar-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+
+.navbar-top h2 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+    color: #ecf0f1;
+    letter-spacing: 1px;
+}
+
+.navbar-top p {
+    margin: 0;
+    font-size: 15px;
+    color: #bdc3c7;
+}
+
+/* Link kısmı */
+.navbar-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.navbar-links a {
+    background-color: #555;
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 8px;
+    text-decoration: none !important; /* ALT ÇİZGİYİ KALDIRIR */
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    transition: all 0.2s ease;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.2);
+}
+
+.navbar-links a:hover {
+    background-color: #3498db;
+    color: #fff;
+    transform: translateY(-2px);
+    text-decoration: none !important; /* HOVER'DA DA ALT ÇİZGİ YOK */
+}
+
+.navbar-links .logout {
+    background-color: #e74c3c;
+}
+
+.navbar-links .logout:hover {
+    background-color: #c0392b;
+}

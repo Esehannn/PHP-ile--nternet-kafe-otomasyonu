@@ -1,0 +1,84 @@
+.oturumlar-container {
+    max-width: 1200px;
+    margin: 32px auto 0 auto;
+    padding: 20px;
+    background: #f8fafd;
+    border-radius: 14px;
+    box-shadow: 0 2px 12px #e6ecf4;
+}
+
+.oturumlar-baslik {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 28px;
+    font-weight: 700;
+    color: #1766b3;
+    letter-spacing: 1px;
+}
+
+.oturumlar-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 32px;
+}
+
+.oturumlar-table th, .oturumlar-table td {
+    padding: 12px 10px;
+    text-align: center;
+}
+
+.oturumlar-table th {
+    background: #e3f0fb;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.oturumlar-table tr:nth-child(even) {
+    background: #f6fbfe;
+}
+
+.oturum-acik {
+    color: #219f3c;
+    font-weight: bold;
+}
+.oturum-kapali {
+    color: #b42c2c;
+    font-weight: bold;
+}
+
+.btn-sil {
+    padding: 6px 14px;
+    background: #e74c3c;
+    color: #fff;
+    border-radius: 7px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.16s;
+    display: inline-block;
+}
+.btn-sil:hover {
+    background: #c0392b;
+}
+
+.oturumlar-sayfalama {
+    text-align: center;
+    margin: 32px 0;
+}
+.sayfa-btn {
+    margin: 0 5px;
+    padding: 7px 13px;
+    color: #1976d2;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 1px solid #c7e0fb;
+    background: #fff;
+    transition: background 0.16s, color 0.16s;
+    font-weight: 500;
+}
+.sayfa-btn.aktif, .sayfa-btn:hover {
+    background: #1976d2;
+    color: #fff;
+}

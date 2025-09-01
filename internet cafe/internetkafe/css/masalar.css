@@ -1,0 +1,136 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0; /* padding 20px kaldırıldı */
+}
+
+/* Başlık */
+h2 {
+    text-align: center;
+    color: #333;
+    margin: 30px 0 25px;
+}
+
+/* Formlar üstteki */
+.form-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-bottom: 30px;
+    padding: 0 20px;
+}
+
+.masa-form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+
+.masa-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.masa-form input,
+.masa-form select {
+    width: 200px;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+.masa-form .btn {
+    width: 100%;
+}
+
+/* Masa kutularının grid yapısı */
+.masa-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 20px;
+    padding: 0 20px 60px;
+}
+
+/* Her masa kutusu */
+.masa-kutu {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.07);
+    transition: 0.2s ease;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+.masa-kutu:hover {
+    transform: scale(1.01);
+}
+
+/* Butonlar */
+.btn {
+    padding: 8px 14px;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+    cursor: pointer;
+    text-decoration: none;
+    background-color: #007bff;
+    color: white;
+    margin: 3px;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.btn-sil {
+    background-color: #dc3545;
+}
+.btn-sil:hover {
+    background-color: #b02a37;
+}
+
+.btn-duzenle {
+    background-color: #28a745;
+}
+.btn-duzenle:hover {
+    background-color: #218838;
+}
+
+/* Form kutuları: Hizmet ve Ödeme */
+.form-kutu {
+    display: none;
+    margin-top: 10px;
+    padding: 10px;
+    background: #f9f9f9;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+
+.form-kutu label {
+    display: block;
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+.form-kutu input,
+.form-kutu select {
+    width: 100%;
+    padding: 6px;
+    border-radius: 6px;
+    border: 1px solid #bbb;
+    margin-top: 4px;
+}
+
+/* Masa kutusu başlığı */
+.masa-kutu h3 {
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
